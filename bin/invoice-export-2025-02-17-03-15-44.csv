@@ -1,0 +1,8 @@
+id,name,phone,address,date,invnum,cust,model,work,sub,tax,total,paid
+1,"Joe Demagio",480-555-2222,"1444 N. Street
+Scottsdale, AZ 85212",08/08/2018,14444-7,jd,sales,"<p>4<span>paper thingys</span><b><em>3.45</em>$13.80</b></p>
+<p>3<span>other things</span><b><em>7.29</em>$21.87</b></p>
+",36,0,36,"no tax non-profit exempt",0
+2,"Bellalucci Margon",678-555-0990,"800 Easy St.
+Some City, NY 01901",,08132018-SC22,Margon,Sales,"<p>2<span>wizzy-wugs</span><b><em>12.95</em>$25.90</b></p>
+<p>3<span>wuggy-wizzs</span><b><em>14.95</em>$44.85</b></p>",87,0,87,"use account",1

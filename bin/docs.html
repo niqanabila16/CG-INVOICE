@@ -1,0 +1,49 @@
+<html>
+<head>
+  <title>CG-Invoice Instructions</title>
+<style>body{width: 90%;border: 1px solid #aaa;margin: 0 auto;padding: 20px;font-family: sans-serif;font-size: 1em;}a{height: 19px; width: 40px; padding: 5px; background-image: linear-gradient(#fefefe, #e8e8e8); }h3{margin-bottom: 0; padding-top: 8px;border-top: 1px solid #ccc;}
+.left{float: left; margin: 0 10px;}.right{float-right; margin: 0 10px;}.right:after{clear: both;}</style>
+</head>
+<body>
+<div class="left">
+<p><a href="../index.php" title="back">Invoice Home</a></p>
+<button onclick="goBack()">Go Back</button>
+
+<script>
+function goBack() {
+    window.history.back();
+}
+</script>
+</div><div class="right"><img src="icon.png" /></div>
+<h1>CG-Invoice Instructions and Tips</h1>
+<div id="invoice">
+<h3>Create an Invoice</h3>
+<p>To create a new invoice open menu item "Open Blank Invoice." fill out data and use "Submit" green button to save. Do not forget to set the date filed so you can keep acurate track of appended invoices.</p>
+</div>
+<div id="edit-invoice">
+<h3>Edit an Invoice</h3>
+<p>For security, no invoice can be deleted. You may however <em>Clone</em> an invoice by using the Edit button.</p>
+<p>Clone will make a copy of the existing invoice and allow you to edit the following fields:</p>
+<ul><li>Invoice Number</li><li>Description</li><li> Cost</li><li> Sub</li><li> Total Total</li></ul>
+<p>Other fields are locked so you may append current customer invoice without losing vital information.</p>
+</div>
+
+<div id="admin">
+<h3>Administrator Information</h3>
+<p>Adding a new user requires a username or an email (both is best). Add the new username or email to the fields in admin page "Manage Access." At this point the new user may enter those credentials you just gave them into the fields of the pre-registration form---on the normal login page. Once this is done the new user will find they now have access to the registration form and can create and control their new account on their own. The new user does not have to use the email or the username you just gave them. You are basically creating a token or secret access key which will have to match when they enter it into the access registration form fields.</p>
+<p>"Manage Accounts" page give administrators the ability to delete accounts and change username or password. There is also a field for active and non-active if you just want to put an account on hold without deleting it. A 1 in the active box will give user access and a 0 will lock them out.</p>
+<p>To create a new administrator you can assign any new user---or current user---a "Level" of zero. Access levels are as such: 1 = regular user (no admin access); 0 = adminstrator access. Without a level of 0 users will not be able to access any administrative pages. "Manage Accounts" page gives you the options to change this freely.</p>
+<p>Email field in admin can not be changed. Email is required to validate an account or make any changes. To change email you would have to create a new account with the new email.</p>
+</div>
+<div id="support">
+<h3>Support Request</h3>
+<form name="sendform" action="send-form.php" method="POST">
+<p><label>To</label><br><input type="email" name="emailto" value="support@tradesouthwest.com" class="form-control"/></p>
+<p><label>Subject</label><br><input type="text" name="subject" class="form-control"/></p>
+<input type="text" name="name" value="" placeholder="Name">
+<input type="text" name="phone" value="" placeholder="Phone">
+<textarea name="work"></textarea>
+<input type="submit" class="btn btn-success" name="sendmail">
+</div>
+</body>
+</html>

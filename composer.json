@@ -1,0 +1,13 @@
+{
+    "name": "niqanabila/cginvoice_3.0.01",
+    "type": "project",
+    "authors": [
+        {
+            "name": "niqanabila16",
+            "email": "niqanabila16@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "vimeo/psalm": "^6.7"
+    }
+}

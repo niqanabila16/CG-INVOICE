@@ -1,0 +1,131 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+body {
+  font-family: Lato, Verdana, Geneva, Arial, helvetica, sans-serif; 
+  font-size: 17px;
+    background: #e8e8e8;
+    color: #333;
+    font-weight: 400;
+    background: url(dollars.jpg);
+   }
+   body.easein{
+    transition-timing-function: 
+    cubic-bezier(0.25, 0.1, 0.25, 1);
+    }
+
+.wrapper {
+    width: 98.8992%;
+    
+}
+.clearme {
+    clear:both;
+}
+select {   
+   height: 26px;   
+   font-size: 14px;
+   line-height: 1;
+    padding:3px;
+
+   border: thin solid #999;
+    border-radius: 2px;
+    cursor: pointer;
+   
+}
+a.inlink{
+    background: #fafafa;
+    padding: 6px 7px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px #333;
+}
+h1{
+    background: rgba(255,255,255, .9);
+    padding: 12px 24px;
+    font-weight:700;
+}
+table {border: 3px solid #fafafa; }
+td {
+	font-family: Verdana, Geneva, Arial, helvetica, sans-serif; font-size: 15px; 
+}
+.monthview { width: 100%; padding: 0; }
+
+
+th {
+	background-color: #eaffff; font-family: Verdana, Geneva, Arial, helvetica, sans-serif; font-size: 15px; 
+padding: 2px; color : #301000; text-align: center; font-weight: 500;
+}
+
+.toprightnumber {
+	font-family: Verdana, Geneva, Arial, helvetica, sans-serif; font-size: 15px; font-weight: bold;	
+}
+/* --------------- fixed details not wide enough ------------------ */
+.eventinbox {
+    font-family: Lato, Verdana, Geneva, Arial, helvetica, sans-serif; 
+    font-size: 12px; 
+background-color: #fafafa;
+}
+.currentdate {
+	font-family: Verdana, Geneva, Arial, helvetica, sans-serif; font-size: 17px; font-weight: bold;
+    color: white; width: 96%; margin: 0 auto; text-align: center;
+}
+.centered {
+    text-align: center; margin:0 auto; }
+.monthyear { 
+    width:28%; border:2px solid #aabbaa; margin:0 auto; padding:0; text-align: center;}
+.mainbox {
+    width:98.9882%; border:0; text-align:center; padding:0; margin:0 auto; background:transparent}
+
+
+a:link,a:active,a:visited {color: #000; text-decoration: none; border-bottom:thin dotted #aaa;}
+a:hover	{text-decoration: underline; color: green; border-bottom: 0;}
+
+.toprightnumber a:link, .toprightnumber a:active, .toprightnumber a:visited {
+    display: block; max-width: 1.232em;
+    margin:2px; padding: 2px; color: blue; 
+    text-decoration: overline; border: 1px solid #9a3; 
+    border-radius: 2px; 
+}
+.toprightnumber a:hover	{
+	text-decoration: underline; color: green;
+}
+.footer {
+	font-family: Verdana, Geneva, Arial, helvetica, sans-serif; font-size: 10px;
+}
+td.beforedayboxes {
+	background-color: #dddddd; color: #000000;
+}
+td.dayboxes {
+	background-color: #fcfcfc; color: #222222;
+}
+td.afterdayboxes {
+	background-color: #dddddd; color: #000000;
+}
+td.highlighteddayboxes {
+	background-color: #fafaaa; color: #000000;
+}
+.left {
+    display:block;
+    text-align: left;
+    margin-top: -9px;
+    white-space: nowrap;
+}
+.left td { 
+
+}
+
+.event {
+	font-family: Lato, Verdana, Geneva, Arial, helvetica, sans-serif; font-size: 12px; font-weight: bold;
+    color: #333;
+}
+.eventdetail {
+	font-family:  Lato, Verdana, Geneva, Arial, helvetica, sans-serif; font-size: 14px;color: #333;
+}
+.eventwhen {
+	font-family:  Lato, Verdana, Geneva, Arial, helvetica, sans-serif; font-size: 15px; font-weight: bold;color: #333;
+}
+.addevent {
+	font-family:  Lato, Verdana, Geneva, Arial, helvetica, sans-serif; font-size: 11px; font-weight: bold;color: #333;
+}
+.addeventextrainfo {
+	font-family:  Lato, Verdana, Geneva, Arial, helvetica, sans-serif; font-size: 10px;color: #333;
+}
+.button1 { display:inline; min-height: 22px; width: 280px; background: #fafaaa; border:thin solid blue; border-radius: 4px;
+    padding:3px; font-size: 16px;}
